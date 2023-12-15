@@ -1,0 +1,74 @@
+/* main */
+/* Login Page */
+.Login-page {
+  padding: 60px 140px 70px 140px;
+  display: flex;
+  justify-content: center; 
+}
+
+.horizontal-form {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  width: 500px;
+  border: 5px solid #000;
+  min-height: 250px;
+}
+
+.heading {
+  padding: 110px 15px;
+  background : url("../public/Image/Login\ bali.jpg");
+  color: #fff;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+.form-group > label {
+  background-color: #F2F1FA;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+
+.input1 {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+box-sizing: border-box;
+}
+
+#submit-admin {
+background-color: #ff1100;
+color: #fff;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 20px 20px 20px 20px;
+margin-bottom: 20px; 
+}
+
+.form-login {
+padding-left: 13px;
+padding-right: 13px;
+padding-top: 15px; 
+text-align: left;
+}
+
+
+/* responsive */
+/* responsive Handphone */
+@media (max-width: 430px) {
+  .Login-page {
+    padding: 60px 10px 70px 10px;
+    display: flex;
+    justify-content: center; 
+  }
+}
+
